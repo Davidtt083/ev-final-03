@@ -36,6 +36,9 @@ h2 {
   font-size: 3.5rem!important;
   width: 80%;
   text-align: justify;
+  margin-right: 28px;
+  margin-left: 30px;
+  transform: translateX(-148px);
 }
 
 h4{
@@ -324,8 +327,7 @@ input[type="submit"] {
 
 .my-name h2 {
   margin: 0;
-  font-size: 5em;
- 
+  font-size: 5em; 
   text-shadow: 2px 2px 5px rgba(31, 38, 135, 0.37);
 }
 
@@ -364,7 +366,8 @@ input[type="submit"] {
   font-weight: 800;
   flex-flow: row nowrap; 
   justify-content: space-between;
-  margin-left: 16%;
+  margin-left: 13%;
+  display: flex;
   
 }
 
@@ -429,4 +432,16 @@ input[type="submit"] {
 .final{
   justify-content: center;
   text-align: center;
+}
+.numer{
+  width:2%;
+  margin-left: 143px;
+  margin-right: 0px;
+}
+.text-final
+{
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-left: 68px;
 }
